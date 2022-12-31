@@ -1,0 +1,247 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+}
+
+body{
+ margin: 0 ; 
+}
+
+
+/* =================
+searchbox and cart
+================= */
+
+.input{
+ border: none;
+ width: 300px;
+ margin-right: 40px;
+
+
+}
+
+.search_box{
+ border: solid 1px lightgrey;
+ background: #1792d2;
+ margin-left: 0px;
+ margin-right: 20px;
+ 
+}
+
+.cartContainer{
+ display: flex;
+ border: none;
+ background: darkgrey;
+ align-items: center;
+ margin-left: 60px;
+ width: 100%;
+
+}
+
+.cartText{
+text-align: center;
+
+}
+
+
+.cartText{
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+
+.fa-cart-shopping{
+ margin-right: 20px;
+ cursor: pointer;
+}
+
+.fa-cart-shopping:hover, 
+.fa-cart-shopping:focus{
+ color: #1792d2;
+}
+/* =================
+navigation
+================= */
+header{
+ background: #096ca1;
+ margin-bottom: 3em;
+ padding: 2em 0;
+
+
+
+}
+
+nav{
+ width: 100%;
+ float: left;
+ margin: 0 0 1em 0;
+ padding: 0;
+
+ 
+}
+nav ul{
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ padding: 0;
+ margin: 0 auto;
+ 
+}
+
+nav li{
+ margin-right: 0px;
+float: left;
+ margin-top: 10px;
+}
+
+nav a{
+ text-decoration: none;
+ color: burlywood;
+ letter-spacing: 1px;
+ padding: .25em 0;
+
+}
+
+.fa-medal{
+ font-size: 3em;
+}
+
+nav a:hover,
+nav a:focus {
+ color: #1792d2;
+}
+
+.current-page {
+ border-bottom: 1px solid #707070;
+}
+
+.current-page:hover {
+ color: #707070;
+}
+
+@media (max-width: 675px) {
+ nav ul {
+  flex-direction: column;
+ }
+
+ nav li {
+  margin: .5em 0;
+ }
+
+ .fa-medal{
+  margin-right: 20px;
+ }
+
+ .search_box{
+ display: flex;
+ margin-left: 0px;
+ width: 70%;
+ }
+ 
+
+ .cartContainer{
+position: relative;
+right: 60px;
+top: 20px;
+width: 30%;
+ }
+
+
+
+
+
+
+ 
+
+
+
+}
+
+@media (min-width:675px) {
+ header{
+  text-align: center;
+  width: 100%;
+
+ 
+  
+
+ }
+
+ nav li{
+  margin-left: 50px;
+ }
+
+ 
+
+ .search_box{
+  display: flex;
+  width: 60%;
+  margin-right: 20px;
+  margin-left: 30px;
+
+ }
+
+ 
+ .input{
+  width: 30vw;
+ }
+
+ .container{
+ display: flex;
+
+
+ 
+
+}
+
+
+
+.cartWrapper{
+ width: 15%;
+ position: relative;
+ right: 160px;
+
+ align-items: center;
+}
+
+
+
+
+
+.siteLogo{
+ margin-top: 10px;
+}
+
+
+
+.container{
+
+ margin: 0 auto;
+ width: 90%;
+ max-width: 900px;
+
+
+}
+
+
+
+}
+
+/* =================
+Typography
+================= */
+
+
+/* =================
+Layout
+================= */
+
+header{
+ position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+
+}
