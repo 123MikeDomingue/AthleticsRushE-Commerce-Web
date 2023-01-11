@@ -37,7 +37,8 @@ transform:scale(1.60);
 .cartContainer{
  display: flex;
  border: none;
- background: darkgrey;
+background: rgb(38, 38, 207);
+color: #fff;
  align-items: center;
  margin-left: 60px;
  width: 100%;
@@ -149,59 +150,123 @@ position: relative;
 right: 60px;
 top: 20px;
 width: 30%;
- }
+}
 
   .container2 {
-   margin-top: 400px;
-   margin-bottom: 50px;
-   text-align: center;
-   width: 100%;
-   height: 200px;
-    background-color: #ECF0F1;
- 
- 
-  }
+  margin-top: 400px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: #ECF0F1;
+}
 
-      .AthleticRushTitle {
-       margin-bottom: 50px;
+  .AthleticRushTitle {
+  margin-bottom: 50px;
       }
 
-            .shopWrapper {
-             background: darkgray;
-             width: 30%;
-             margin: 0 auto;
-             margin-bottom: 60px;
-             margin-top: 20px;
-             cursor: pointer;
-             
+  .shopWrapper {
+  background: darkgray;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+  }
       
-            }
-      
-            .shopWrapper:hover,
-            .shopWrapper:focus {
-             color: #1792d2;
-            }
+  .shopWrapper:hover,
+  .shopWrapper:focus {
+  color: #1792d2;
+  }
 
-                        .AthleticRushImages {
-                          width: 250px;
-                          height: 250px;
-                         
-                      
-                          
-                          justify-content: center;
-                          display: flex;
-                         margin: 100px auto;
+  .AthleticRushImages {
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  display: flex;
+  margin: 100px auto;
                         
                         }
-            .container3 {
-              width: 100%;
-              height: 100vh;
-              margin-top: 1150px;
-             background: #FAF9F6;
-             margin-left: 0px;
-             
-      
-            }
+  .container3 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 1150px;
+  background: #FAF9F6;
+  margin-left: 0px;
+  }
+    .container4 {
+  
+  
+      margin-top: 300px;
+      text-align: center;
+      width: 100%;
+      background: #1792d2;
+      height: 150px;
+  
+    }
+        .container5 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          text-align: center;
+         
+        
+    
+    
+    
+        }
+
+        .container5 ,.image9{
+        
+        }
+
+        .container5{
+          margin: 0 auto;
+          width: 80%;
+          margin-bottom: 60px;
+        
+        }
+          .ExclusiveDealsTitle {
+          text-align: center;
+          margin-top: 40px;
+          margin-bottom: 40px;
+         }
+
+                 .container5 img {
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+        
+        
+        
+
+                 }
+                 .container6{
+                    background: #ECF0F1;
+                    display: flex;
+                    flex-direction: column;
+                    
+                    
+                  
+                   
+                    
+                 }
+
+                 .aboutContainer{
+                  margin-top: 60px;
+                  text-align: center;
+                  
+                
+                  
+                 }
+
+                 .leftsideforAboutSection{
+                  background: #1792d2;
+                 
+                 }
+                 .AboutText{
+                  width: 100%;
+                 }
 
 }
 
@@ -210,16 +275,11 @@ width: 30%;
   text-align: center;
   width: 100%;
 
- 
-  
-
  }
 
  nav li{
   margin-left: 50px;
  }
-
- 
 
  .search_box{
   display: flex;
@@ -228,36 +288,28 @@ width: 30%;
   margin-left: 30px;
 
  }
-
- 
- .input{
+.input{
   width: 30vw;
  }
 
  .container{
  display: flex;
 
-
- 
-
 }
 
-    .container2 {
-     margin-top: 200px;
-     text-align: center;
-     width: 100%;
-     height: 200px;
-     background-color: #ECF0F1;
-  
-  
+  .container2 {
+  margin-top: 200px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: #ECF0F1;
+                                                    
+                                                    
     }
 
     .AthleticRushTitle{
      margin-bottom: 50px;
     }
-
-
-
 
 .cartWrapper{
  width: 15%;
@@ -266,14 +318,13 @@ width: 30%;
 
  align-items: center;
 }
-
-
 .shopWrapper {
- background: darkgray;
+background: rgb(38, 38, 207);
  width: 10%;
  margin: 0 auto;
  position: relative;
  top: 20px;
+ color: #fff;
  cursor: pointer;
 
 
@@ -284,14 +335,9 @@ width: 30%;
  color: #1792d2;
 }
 
-
-
-
 .siteLogo{
  margin-top: 10px;
 }
-
-
 
 .container{
 
@@ -307,17 +353,14 @@ width: 250px;
 height: 250px;
 overflow-x: hidden;
 margin-top: 90px;
-margin-bottom: -0px;
+margin-bottom: 40px;
 margin-left: 50px;
 z-index: 3;
-
-
-
 }
 
  .container3 {
   max-width: 50%;
-  height: 100vh;
+  height: 130vh;
   margin-top: 400px;
 background: #FAF9F6;
   display: flex;
@@ -325,8 +368,10 @@ background: #FAF9F6;
   justify-content: center;
 margin: 0 auto;
 position: relative;
-top: 380px;
+top: 400px;
 left: 40px;
+border: 1px solid #FAF9F6;
+
 
 flex-grow: 2 1 1;
 
@@ -339,13 +384,140 @@ flex-grow: 2 1 1;
 
 }
 
+.container4 {
+
+
+  margin-top: 460px;
+  text-align: center;
+  width: 100%;
+  background: #1792d2;
+ 
+  height: 150px;
+
+
+}
+.container5 {
+  width: 80%;
+  display: grid;
+  grid-template-rows: 300px 200px 200px ;
+  grid-template-columns: 300px 200px 200px 200px 200px;
+margin: 0 auto;
+margin-bottom: 60px;
+
+  overflow-x: hidden;
+}
+.container5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 
 
 
 }
 
+.ExclusiveDealsFirstColumn {
+  grid-row: 3;
 
 
+}
+
+
+.ExclusiveDealsFirstColumn,
+.ExclusiveCart {
+  width: 1000px;
+}
+
+
+.container5, .image9 {
+  column-gap: 20px;
+}
+
+.ExclusiveDealsSecondColumn {
+  grid-row: 2;
+
+}
+
+.ExclusiveDealsSecondColumn,
+.ExclusiveCart {
+  width: 1000px;
+
+}
+
+.ExclusiveDealsThridColumn {
+  grid-row: 2;
+}
+
+.ExclusiveDealsThridColumn,
+.ExclusiveCart {
+  width: 1000px;
+}
+
+
+.image12 {
+  grid-row: 3;
+  grid-column: 3/5;
+}
+
+.ExclusiveDealsSecondColumnBottom {
+  grid-row: 4;
+  grid-column: 3;
+  /* margin-left: 150px;  */
+  width: 100%;
+
+}
+.leftsideforAboutSection {
+  width: 100%;
+  height: 100%;
+  background: #1792d2;
+  
+   background-size: contain; 
+   
+
+  
+
+}
+
+
+.card img{
+  width: 100%;
+}
+
+
+
+
+.container6 {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  margin-top: 60px;
+  background: #ECF0F1;
+
+ 
+  
+ 
+
+  }
+    .aboutContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* margin-bottom: 300px; */
+      margin-left: 40px;
+      width: 88%;
+     
+      grid-column: 2;
+  
+  
+    }
+    .AboutText{
+      width: 100%;
+    }
+  
+
+}
 
 /* =================
 Typography
@@ -353,15 +525,15 @@ Typography
 
 .featuredProducts{
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
-
+.FeaturedCart:hover{
+  color: #1792d2;
+}
 /* =================
 Layout
 ================= */
-
-
 header{
  position: fixed;
  top: 0;
@@ -370,22 +542,10 @@ header{
  z-index: 100;
 
 }
-
-
 span{
  border-bottom: solid 5px lightgray;
   padding-bottom: 25px;
-  
-
-
- 
-}
-
-
-
-
-
-
+  }
 /* =================
 Image SlideShow
 ================= */
@@ -394,16 +554,14 @@ Image SlideShow
 .swiper{
   width: 80%;
   height: fit-content;
+ 
 }
 
 .swiper-slide img{
   min-width: 100%;
   height: 700px;
   background-size: cover ;
-  
-
-
-  
+  object-fit: cover;
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
@@ -412,4 +570,151 @@ Image SlideShow
 
 .swiper .swiper-pagination-bullet-active{
   background: #fff;
+}
+.swiper button{
+  background: rgb(38, 38, 207);
+  width: 20%;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #FAF9F6;
+}
+
+
+/* =================
+NewsLetter
+================= */
+
+
+.container4 p{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.container4 button{
+  border: solid 1px black;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.container4 button:hover{
+
+
+}
+
+/* =================
+Exclusivedeals
+================= */
+
+
+
+
+.container5, .image8{
+  grid-row: 1/3;
+  grid-column: 1/3;
+ 
+
+  
+}
+
+
+
+
+
+.ExclusiveDealsTitle{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.ExclusiveCart{
+ width: 10% ;
+
+
+}
+
+
+/* =================
+Exclusivedeals
+================= */
+
+
+.ExclusiveCart{
+   background: #2626cF;
+   color: #fff;
+}
+.ExclusiveCart:hover, .ExclusiveCart:Focus{
+  color: #1792d2;
+}
+
+
+
+
+  /* width: 100%;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #ECF0F1;
+
+  align-items: center; */
+  
+
+/* Make the about section into a card
+. split the container into two sections
+on the right would be
+
+*/
+
+
+/* =================
+Footer
+================= */
+footer{
+  display: grid;
+   background: #096ca1; 
+  color: #DEB887;
+  grid-template-rows: 200px;
+  grid-template-columns: 200px 200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.col1{
+  margin-top: 20px;
+}
+.col2{
+  margin-top: 20px;
+}
+.col1 ul{
+  list-style: none;
+  position: relative;
+  right: 20px;
+ 
+}
+
+.col1 a{
+  text-decoration: none;
+  color: #DEB887;
+ 
+  
+ 
+}
+
+.col1 a:hover, .col1 a:focus{
+color: #1792d2;
+}
+
+.col1 li{
+  margin-top: 10px;
+}
+.col2 a{
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+.col2 i{
+  margin-top: 10px;
+}
+.rightsReserved{
+  width: 150%;
 }
